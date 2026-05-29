@@ -1,7 +1,9 @@
+import { Roboto_300Light, Roboto_400Regular, Roboto_700Bold, useFonts } from '@expo-google-fonts/roboto';
+import * as Notifications from 'expo-notifications';
 import { Stack } from "expo-router";
-import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { StyleSheet } from 'react-native';
-import { useFonts, Roboto_300Light, Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/roboto';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+
 
 export default function RootLayout() {
   const [fontsLoaded] = useFonts({
@@ -9,6 +11,14 @@ export default function RootLayout() {
     Roboto_700Bold,
     Roboto_300Light,
   });
+
+  Notifications.setNotificationHandler({
+  handleNotification: async () => ({
+    shouldShowAlert: true,
+    shouldPlaySound: true,
+    shouldSetBadge: false,
+  }),
+});
 
   if (!fontsLoaded) return null
 
