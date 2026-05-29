@@ -58,9 +58,13 @@ Código-fonte do back-end disponível em: [VictorRojasHub/fatecLanchesBack](http
 
 <br>
 
-## 🧑‍💻 Participantes
+## 🧑‍💻 Participantes 5 semestre
 - [Lizandra de Jesus Ferrari](https://github.com/Lizandraferrari)  
 - [Victor Rojas](https://github.com/VictorRojasHub)  
 - [Felipe Day](https://github.com/FelipeDay)
+- [Otávio Barbosa](https://github.com/OffTAVs)
+- [Victor Nery Eduardinho Reis](https://github.com/fatecvictor1)
+
+## 🧑‍💻 Participantes 6 semestre
 - [Otávio Barbosa](https://github.com/OffTAVs)
 - [Victor Nery Eduardinho Reis](https://github.com/fatecvictor1)
